@@ -13,7 +13,7 @@ const ContactForm = ({ email, budget }) => {
         className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3"
         id="contact"
       >
-        Contact
+        Contato
       </h5>
 
       <form
@@ -28,7 +28,7 @@ const ContactForm = ({ email, budget }) => {
               autoComplete="name"
               className="form-input"
               name="name"
-              placeholder="NAME"
+              placeholder="NOME"
               required
               type="text"
             />
@@ -39,7 +39,7 @@ const ContactForm = ({ email, budget }) => {
               autoComplete="email"
               className="form-input"
               name="email"
-              placeholder="EMAIL ADDRESS"
+              placeholder="EMAIL"
               required
               type="email"
             />
@@ -58,7 +58,7 @@ const ContactForm = ({ email, budget }) => {
                     <span className="absolute inline-block bg-lead inset-0 m-1"></span>
                   )}
                 </span>
-                <span className="text-front opacity-50 uppercase">Inquiry</span>
+                <span className="text-front opacity-50 uppercase">Consultar valores?</span>
               </label>
             </div>
           </div>
@@ -78,7 +78,7 @@ const ContactForm = ({ email, budget }) => {
                   htmlFor="budget"
                   className="block opacity-50 text-front px-4 py-3 h-full font-header text-sm uppercase font-semibold leading-tight"
                 >
-                  Budget
+                  Orçamento
                 </label>
               </div>
               <div className="w-3/4 lg:w-4/5 p-4 bg-back-light">
@@ -104,7 +104,7 @@ const ContactForm = ({ email, budget }) => {
                 autoComplete="new-password"
                 className="form-input"
                 name="project_type"
-                placeholder="PROJECT TYPE (E.G. WEBSITE, MOBILE APP)"
+                placeholder="TIPO DE PROGETO (WEBSITE, MOBILE APP, ARQUITETURA E MIGRAÇÃO DE INFRA)"
                 type="text"
               />
             </div>
@@ -115,7 +115,7 @@ const ContactForm = ({ email, budget }) => {
                 autoComplete="tel"
                 className="form-input"
                 name="phone"
-                placeholder="PHONE NUMBER"
+                placeholder="TELEFONE DE CONTATO"
                 type="tel"
               />
             </div>
@@ -127,7 +127,7 @@ const ContactForm = ({ email, budget }) => {
             aria-label="Message"
             className="block form-input bg-back-light resize-none border-b-0 pb-4"
             name="message"
-            placeholder="MESSAGE"
+            placeholder="MENSAGEM"
             required
             rows="6"
           ></textarea>
@@ -135,7 +135,7 @@ const ContactForm = ({ email, budget }) => {
             <input
               className="font-header inline-block font-semibold px-6 py-2 leading-tight cursor-pointer outline-none bg-front text-back-light uppercase mr-4 my-4 transition-opacity duration-150 hover:opacity-75"
               type="submit"
-              value="Send"
+              value="ENVIAR"
             />
           </div>
         </div>

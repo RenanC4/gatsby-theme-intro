@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     description: "Personal page of John Doe",
-    locale: "en",
+    locale: "pt-BR",
     title: "John Doe",
   },
   plugins: [
     {
-      resolve: "@wkocjan/gatsby-theme-intro",
+      resolve: "@renanc4/gatsby-theme-intro",
       options: {
         basePath: "/",
         contentPath: "content/",
